@@ -1,0 +1,9 @@
+.image-container img {
+	max-height: 100px;
+}
+
+input,
+button {
+	outline: none !important;
+	box-shadow: none !important;
+}
