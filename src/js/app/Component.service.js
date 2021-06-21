@@ -24,4 +24,4 @@ class ComponentService {
 	}
 }
 
-// export default ComponentService;
+export default ComponentService;

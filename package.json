@@ -1,0 +1,45 @@
+{
+	"name": "webpack-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"private": true,
+	"scripts": {
+		"start": "webpack serve --config webpack.dev.js --open",
+		"build": "webpack --config webpack.prod.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nil1729/webpack-demo.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nil1729/webpack-demo/issues"
+	},
+	"homepage": "https://github.com/nil1729/webpack-demo#readme",
+	"devDependencies": {
+		"clean-webpack-plugin": "^4.0.0-alpha.0",
+		"css-loader": "^5.2.6",
+		"file-loader": "^6.2.0",
+		"html-loader": "^2.1.2",
+		"html-webpack-plugin": "^5.3.1",
+		"image-minimizer-webpack-plugin": "^2.2.0",
+		"imagemin-jpegtran": "^7.0.0",
+		"imagemin-optipng": "^8.0.0",
+		"mini-css-extract-plugin": "^1.6.0",
+		"node-sass": "^6.0.0",
+		"sass": "^1.35.1",
+		"sass-loader": "^12.1.0",
+		"style-loader": "^2.0.0",
+		"webpack": "^5.39.1",
+		"webpack-cli": "^4.7.2",
+		"webpack-dev-server": "^3.11.2",
+		"webpack-merge": "^5.8.0"
+	},
+	"dependencies": {
+		"@popperjs/core": "^2.9.2",
+		"bootstrap": "^5.0.1"
+	}
+}

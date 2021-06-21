@@ -1,3 +1,4 @@
+import inputsAreValid from './utils/inputs-are-valid';
 class AlertService {
 	constructor() {
 		this.alertBox = document.getElementById('alert-box');
@@ -22,3 +23,5 @@ class AlertService {
 		this.alertBox.classList.remove('show');
 	}
 }
+
+export default AlertService;

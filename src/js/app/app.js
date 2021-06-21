@@ -1,3 +1,6 @@
+import parseInputs from './utils/parse-input';
+import inputsAreValid from './utils/inputs-are-valid';
+
 const run = (alertService, componentService) => {
 	alertService.hideErrors();
 
@@ -22,4 +25,4 @@ const run = (alertService, componentService) => {
 	});
 };
 
-// export default run;
+export default run;

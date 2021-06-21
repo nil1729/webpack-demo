@@ -5,25 +5,22 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Webpack Demo</title>
-		<link rel="stylesheet" href="./src/css/vendor/bootstrap.min.css" />
-		<link rel="stylesheet" href="./src/css/main.css" />
 	</head>
 	<body>
 		<div class="container">
-			<div class="image-container">
-				<img src="./assets/webpack.png" class="img-fluid d-block m-auto" alt="webpack" />
+			<!-- Webpack Image -->
+			<div class="image-container d-flex my-3 justify-content-between">
+				<img src="../assets/webpack.png" class="img-fluid m-auto" alt="webpack" />
+				<img src="../assets/js.jpg" class="img-fluid m-auto" alt="webpack" />
 			</div>
+
 			<h3 class="text-center">Welcome!</h3>
+
 			<div class="alert alert-danger alert-dismissible fade mt-3" role="alert" id="alert-box">
 				<span id="alert-message"></span>
-				<button
-					type="button"
-					class="btn-close"
-					id="alert-close-btn"
-					data-bs-dismiss="alert"
-					aria-label="Close"
-				></button>
+				<button type="button" class="btn-close" id="alert-close-btn" aria-label="Close"></button>
 			</div>
+
 			<div class="form-container">
 				<form class="row mt-4" id="addition-form">
 					<div class="input-group mb-3">
@@ -44,21 +41,24 @@
 						/>
 					</div>
 					<div class="col-12 m-auto">
-						<button type="submit" class="btn btn-sm btn-outline-secondary d-block m-auto">
-							Add Numbers
-						</button>
+						<button type="submit" class="btn btn-sm btn-primary d-block m-auto">Add Numbers</button>
 					</div>
 				</form>
 			</div>
+
+			<!-- Result -->
 			<div class="result-container border mt-4 px-3 py-2">
 				<p class="lead mb-0">The result is: <span id="result"></span></p>
 			</div>
+
+			<!-- Example for Bootstrap Vendor Test -->
+			<div class="card mt-4">
+				<div class="card-body">
+					<button type="button" class="btn btn-primary d-block m-auto" id="about-btn">
+						About Me!
+					</button>
+				</div>
+			</div>
 		</div>
 	</body>
-	<script src="./src/js/app/utils/inputs-are-valid.js"></script>
-	<script src="./src/js/app/utils/parse-input.js"></script>
-	<script src="./src/js/app/Alert.service.js"></script>
-	<script src="./src/js/app/Component.service.js"></script>
-	<script src="./src/js/app/app.js"></script>
-	<script src="./src/js/index.js"></script>
 </html>
