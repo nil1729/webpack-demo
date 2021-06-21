@@ -1,12 +1,12 @@
 ## Webpack Demo
 
-A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through "loaders", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff. <sup>[webpack](https://github.com/webpack/webpack)</sup>
+A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through "loaders", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff. ([Webpack](https://github.com/webpack/webpack))
 
 ### Set up Working Directory and Configuring Webpack
 
 1. Initialize an empty node project via
    ```
-    $   npm init
+   $  npm init
    ```
 2. Install **webpack**, **Webpack-cli** and **webpack-dev-server**
    ```
@@ -80,3 +80,15 @@ A bundler for javascript and friends. Packs many modules into a few bundled asse
    ```
    $   npm start   // it will open a window on default browser with index.html
    ```
+
+### Helpful Links
+
+- [Webpack Website](https://webpack.js.org/)
+- [Initial Setup](https://webpack.js.org/concepts/)
+- [Loaders](https://webpack.js.org/concepts/loaders/)
+  - [Style Loader](https://webpack.js.org/loaders/style-loader/)
+  - [CSS Loader](https://webpack.js.org/loaders/css-loader/)
+  - [SCSS Loader](https://webpack.js.org/loaders/sass-loader/)
+  - [HTML Loader](https://webpack.js.org/loaders/html-loader/)
+- [Asset Module (>=v5)](https://webpack.js.org/guides/asset-modules/)
+- [Dev Server Setup](https://github.com/webpack/webpack-dev-server)
